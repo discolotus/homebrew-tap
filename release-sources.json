@@ -1,0 +1,18 @@
+{
+  "casks": [
+    {
+      "token": "playlist-optimizer",
+      "repository": "discolotus/spotify-playlist-optimizer",
+      "asset": "playlist-optimizer.rb",
+      "destination": "Casks/playlist-optimizer.rb",
+      "include_prereleases": true
+    },
+    {
+      "token": "seeksync",
+      "repository": "discolotus/SeekSync",
+      "asset": "seeksync.rb",
+      "destination": "Casks/seeksync.rb",
+      "include_prereleases": true
+    }
+  ]
+}
