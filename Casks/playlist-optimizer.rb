@@ -1,9 +1,11 @@
-cask "playlist-optimizer" do
-  version "0.1.0-preview.2"
-  sha256 "0b4d175a6e8f5a852d5403f632b2bffcb689f6b610aa3dea4e982c0f6474041e"
+# frozen_string_literal: true
 
-  url "https://github.com/discolotus/spotify-playlist-optimizer/releases/download/v#{version}/Playlist-Optimizer-#{version}-arm64.zip"
-  name "Playlist Optimizer"
+cask "playlist-optimizer" do
+  version "0.2.0-preview.2"
+  sha256 "3696c43760c1d1d41884fcdeb80a013af88a3ee0e2435f82916bc4ea1cce9a3f"
+
+  url "https://github.com/discolotus/spotify-playlist-optimizer/releases/download/v#{version}/Flowset-#{version}-arm64.zip"
+  name "Flowset"
   desc "Organize local music and export inspectable DJ-ready playlists"
   homepage "https://github.com/discolotus/spotify-playlist-optimizer"
 
@@ -11,7 +13,7 @@ cask "playlist-optimizer" do
   depends_on formula: "ffmpeg"
   depends_on macos: :sequoia
 
-  app "Playlist Optimizer.app"
+  app "Flowset.app"
 
   zap trash: [
     "~/Library/Application Support/com.discolotus.playlist-optimizer",
