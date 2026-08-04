@@ -1,6 +1,6 @@
 cask "seeksync" do
-  version "0.1.2"
-  sha256 "d09f36452818bbe1c151186256826c1c1445e0cc7be46ca4ab8d13d4768645fa"
+  version "0.1.3"
+  sha256 "12b2b81695e983b2e52dd253784af99aefbc467ba095a848d91831c2da2e6c21"
 
   url "https://github.com/discolotus/SeekSync/releases/download/v#{version}/SeekSync-#{version}-arm64.zip"
   name "SeekSync"
