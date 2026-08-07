@@ -1,6 +1,6 @@
 cask "seeksync" do
-  version "0.2.1"
-  sha256 "a6223a07d578e5445b995e199472c1b37b81def6dc36010303a3b583eaa92597"
+  version "0.3.2"
+  sha256 "f16bbc8bd0015472fd2430dbb17e1e1661fc7c2fa65e5bb971fc82bae65a03a5"
 
   url "https://github.com/discolotus/SeekSync/releases/download/v#{version}/SeekSync-#{version}-arm64.zip"
   name "SeekSync"
@@ -13,6 +13,7 @@ cask "seeksync" do
   app "SeekSync.app"
 
   zap trash: [
+    "~/Library/Application Support/SeekSync",
     "~/Library/Application Support/SeekSyncPrototype",
     "~/Library/Caches/com.discolotus.SeekSync",
     "~/Library/Preferences/com.discolotus.SeekSync.plist",
