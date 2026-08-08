@@ -1,10 +1,10 @@
 {
   "casks": [
     {
-      "token": "playlist-optimizer",
+      "token": "flowset",
       "repository": "discolotus/spotify-playlist-optimizer",
-      "asset": "playlist-optimizer.rb",
-      "destination": "Casks/playlist-optimizer.rb",
+      "asset": "flowset.rb",
+      "destination": "Casks/flowset.rb",
       "include_prereleases": true
     },
     {
