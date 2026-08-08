@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-cask "playlist-optimizer" do
+cask "flowset" do
   version "0.2.0-preview.4"
   sha256 "e2fac75b8c79c826ba386b7020aa0a28cc22a48f799cd425f6116f9c2324d331"
 
@@ -25,7 +25,7 @@ cask "playlist-optimizer" do
     This is an unsigned, non-commercial preview. It is ad-hoc signed but has
     not been notarized by Apple. Install it with:
 
-      brew install --cask playlist-optimizer
+      brew install --cask flowset
 
     Before first launch, review the source and release checksum. macOS will
     require an explicit "Open Anyway" approval in Privacy & Security:

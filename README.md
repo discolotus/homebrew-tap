@@ -2,15 +2,19 @@
 
 Homebrew packages for Disco Lotus apps.
 
-## Playlist Optimizer
+## Flowset
 
-Playlist Optimizer is currently an unsigned, non-commercial macOS preview for
+Flowset is currently an unsigned, non-commercial macOS preview for
 Apple silicon.
 
 ```sh
 brew tap discolotus/tap
-brew install --cask playlist-optimizer
+brew install --cask flowset
 ```
+
+This cask was previously published as `playlist-optimizer`. The
+`cask_renames.json` entry maps the old token onto `flowset`, so an existing
+install is migrated by `brew upgrade` and does not need to be reinstalled.
 
 Before first launch, review the
 [source and release checksum](https://github.com/discolotus/spotify-playlist-optimizer/releases).
