@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "playlist-optimizer" do
-  version "0.2.0-preview.4"
-  sha256 "e2fac75b8c79c826ba386b7020aa0a28cc22a48f799cd425f6116f9c2324d331"
+  version "0.2.0-preview.6"
+  sha256 "5dd24ca476ae57619bffd5703afb8439f901c992141d7b578ac0e0dd1f3d287d"
 
   url "https://github.com/discolotus/spotify-playlist-optimizer/releases/download/v#{version}/Flowset-#{version}-arm64.zip"
   name "Flowset"
